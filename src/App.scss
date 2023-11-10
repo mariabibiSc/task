@@ -1,0 +1,33 @@
+#root {
+  margin: 0 auto;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.focused:focus{
+  border-bottom: 3px solid #0AA36E;
+      background: #FFF;
+      box-shadow:  0px 0px 10px 0px rgba(10, 163, 110, 0.50) inset;
+      outline: none;
+}
+
+/* AppointmentSchedule.css */
+.appointment-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.appointment-table th,
+.appointment-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.booked-slot {
+  background-color: lightblue;
+}
+
+.meeting-details {
+  color: white;
+  /* text color for meeting details */
+}
