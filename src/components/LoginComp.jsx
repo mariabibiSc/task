@@ -8,7 +8,8 @@ import logo from "../assets/ccript Logo Green.svg";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
-const baseUrl = import.meta.env.VITE_REACT_APP_BASE_URL;
+// const baseUrl = import.meta.env.VITE_REACT_APP_BASE_URL;
+const baseUrl = "https://hiring-test-task.vercel.app/api";
 const LoginComp = () => {
   const navigate = useNavigate();
   const initialValues = {
