@@ -2,7 +2,9 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { SlRefresh } from "react-icons/sl";
 import { useNavigate } from "react-router-dom";
-const baseUrl = import.meta.env.VITE_REACT_APP_BASE_URL;
+// const baseUrl = import.meta.env.VITE_REACT_APP_BASE_URL;
+const baseUrl = "https://hiring-test-task.vercel.app/api";
+
 const TableComp = () => {
   const navigate = useNavigate();
   const [data, setData] = useState(null);
